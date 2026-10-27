@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AuditX — Case Study | Rutuja Jabras</title>
+<meta name="description" content="A machine-learning system that assesses vendor payments in government fund allocation scenarios and flags potentially suspicious transactions for further investigation.">
+<meta property="og:title" content="AuditX — Case Study | Rutuja Jabras">
+<meta property="og:description" content="A machine-learning system that assesses vendor payments in government fund allocation scenarios and flags potentially suspicious transactions for further investigation.">
+<meta property="og:image" content="/assets/img/profile/profile.jpg">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2305080f'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%232ee6a6' font-family='monospace' font-weight='700'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="in"><small>INITIALIZING PORTFOLIO</small><strong>Rutuja Jabras</strong><div class="bar"><i></i></div><div class="pc">0%</div></div></div>
+<div class="progress" aria-hidden="true"></div><div class="glow" aria-hidden="true"></div>
+<header class="site-header"><div class="wrap nav">
+  <a class="brand" href="/" aria-label="Rutuja Jabras — home"><b>R</b>Rutuja</a>
+  <nav class="menu" id="menu" aria-label="Main"><a href="/">Home</a><a href="/#about">About</a><a href="/#skills">Skills</a><a href="/#projects" aria-current="page">Projects</a><a href="/#hackathons">Hackathons</a><a href="/#events">Events</a><a href="/#psychology">Psychology</a><a href="/#experience">Experience</a><a href="/#contact">Contact</a><a class="btn solid" href="/assets/Rutuja_Jabras_Resume.pdf" target="_blank" rel="noopener">Resume</a></nav>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="wrap rv"><a class="crumb" href="/#projects">← All projects</a><p class="kicker" style="margin-top:28px">2026 · Financial Risk · ML · Anomaly Detection</p><h1>AuditX</h1><p class="lede">AI-Powered Financial Risk Monitoring Platform</p>
+<dl class="dl"><div><dt>Domain</dt><dd>Financial risk</dd></div><div><dt>Model</dt><dd>XGBoost</dd></div><div><dt>Anomaly</dt><dd>Isolation Forest</dd></div><div><dt>Context</dt><dd>AI Grand Challenge</dd></div></dl>
+<div class="hero-media"><figure class="slot cover" data-ph="AuditX"><img src="/assets/img/projects/auditx/cover.jpg" alt="AuditX screenshot" loading="eager" decoding="async"></figure></div>
+<div style="margin-top:24px"><div class="chips"><span class="chip">Python</span><span class="chip">XGBoost</span><span class="chip">Isolation Forest</span><span class="chip">React</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span><span class="chip">Supabase</span></div></div></div></section>
+<div class="wrap"><section class="story rv"><div class="side"><span class="num">01</span><h3>Problem & Intent</h3></div><div class="body"><p class="kick">Manual review does not scale</p><p class="big">Reviewing financial transactions by hand is slow, and risky patterns are easy to miss. AuditX looks at vendor payments in government fund allocation scenarios and surfaces the ones that deserve a closer look.</p></div></section><section class="story rv"><div class="side"><span class="num">02</span><h3>How the System Works</h3></div><div class="body"><p class="kick">Analyse, score, flag, review</p><p>Transactions are analysed, a risk-prediction model scores them, and anomaly detection highlights unusual behaviour. Flagged transactions are then opened for review.</p><ul class="points"><li>Detection-oriented workflows for duplicate invoices, inflated payments, potentially fictitious vendors and unusual transaction patterns.</li><li>Vendor risk scores and flagged-transaction monitoring.</li><li>Transaction-level review.</li></ul><div class="flow"><div class="step"><b>01 · INGEST</b><span>Vendor transactions</span></div><div class="step"><b>02 · PREDICT</b><span>XGBoost risk score</span></div><div class="step"><b>03 · DETECT</b><span>Anomaly detection</span></div><div class="step"><b>04 · FLAG</b><span>Suspicious transactions</span></div><div class="step"><b>05 · REVIEW</b><span>Transaction-level review</span></div></div></div></section><section class="story rv"><div class="side"><span class="num">03</span><h3>Risk Analysis</h3></div><div class="body"><p class="kick">Vendor risk and suspicious indicators</p><p>Each vendor receives a risk score, and individual transactions carry flags that explain why they were raised — for example a high-amount flag. This helps reviewers prioritise where to look first.</p></div></section><section class="story rv"><div class="side"><span class="num">04</span><h3>Engineering & Architecture</h3></div><div class="body"><p class="kick">Model, interface, data</p><p>How the pieces fit together.</p><ul class="points"><li><b>Risk prediction:</b> XGBoost.</li><li><b>Anomaly detection:</b> Isolation Forest, where implemented.</li><li><b>Interface:</b> a web interface for monitoring risk scores and managing complaints, built with React, Vite and Tailwind CSS.</li><li><b>Data:</b> Supabase integration.</li><li><b>Blockchain layer:</b> Solidity smart-contract rules and blockchain logging were part of the AI Grand Challenge entry — see that story for context.</li></ul></div></section><section class="story rv"><div class="side"><span class="num">05</span><h3>Dashboard & Evidence</h3></div><div class="body"><p class="kick">The real interface</p><p>The dashboard counts scanned, flagged, high-risk and clean transactions and streams a live feed. Opening a flagged transaction shows vendor, scheme, amount and detected flags, and lets a reviewer raise a complaint, which then appears in the complaints list as pending review.</p><div class="gallery-block"><div class="shots"><figure class="slot "><img src="/assets/img/projects/auditx/shot-1.jpg" alt="AuditX — Real-time transaction monitoring dashboard" loading="lazy" decoding="async"><figcaption>Real-time transaction monitoring dashboard</figcaption></figure><figure class="slot "><img src="/assets/img/projects/auditx/shot-2.jpg" alt="AuditX — High-risk alert with complaint option" loading="lazy" decoding="async"><figcaption>High-risk alert with complaint option</figcaption></figure><figure class="slot "><img src="/assets/img/projects/auditx/shot-3.jpg" alt="AuditX — Complaints raised" loading="lazy" decoding="async"><figcaption>Complaints raised</figcaption></figure></div></div></div></section><section class="story rv"><div class="side"><span class="num">06</span><h3>Limitations & Future Scope</h3></div><div class="body"><p class="kick">Flags are not findings</p><p>A flagged transaction requires investigation. It does not, on its own, establish fraud. The system is a prioritisation aid for human reviewers.</p></div></section>
+<div class="after"><a class="btn ghost" href="/hackathons/ai-grand-challenge/">Read the AI Grand Challenge story <span class="ar" aria-hidden="true">→</span></a></div></div>
+<nav class="pager" aria-label="Previous and next"><a href="/projects/burnout-attrition/"><small>← Previous</small><strong>Burnout & Attrition Intelligence System</strong></a><a href="/projects/kisaansaathi/"><small>Next →</small><strong>KisaanSaathi</strong></a></nav>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <div class="foot">
+    <div><a class="brand" href="/"><b>R</b>Rutuja Jabras</a><p style="color:var(--muted);margin-top:14px;max-width:36ch;font-size:15px">Computer Science Engineering student building AI-enabled, data-driven full-stack applications.</p></div>
+    <div><h5>Explore</h5><ul><li><a href="/#about">About</a></li><li><a href="/#skills">Skills</a></li><li><a href="/#projects">Projects</a></li><li><a href="/#hackathons">Hackathons</a></li><li><a href="/#events">Events</a></li><li><a href="/#contact">Contact</a></li></ul></div>
+    <div><h5>Connect</h5><ul><li><a href="mailto:rutujajabras33@gmail.com">rutujajabras33@gmail.com</a></li><li><a href="https://www.linkedin.com/in/rutuja-jabras" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://github.com/rutuja3305" target="_blank" rel="noopener">GitHub</a></li><li><a href="/assets/Rutuja_Jabras_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li></ul></div>
+  </div>
+  <div class="copy"><span>© 2026 Rutuja Jabras. All rights reserved.</span><span>Pune, India</span></div>
+</div></footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

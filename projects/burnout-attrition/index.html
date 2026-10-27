@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Burnout & Attrition Intelligence System — Case Study | Rutuja Jabras</title>
+<meta name="description" content="A full-stack HR analytics platform combining XGBoost and SHAP for explainable attrition-risk prediction with a RAG pipeline over HR policy documents grounded in the JD-R model.">
+<meta property="og:title" content="Burnout & Attrition Intelligence System — Case Study | Rutuja Jabras">
+<meta property="og:description" content="A full-stack HR analytics platform combining XGBoost and SHAP for explainable attrition-risk prediction with a RAG pipeline over HR policy documents grounded in the JD-R model.">
+<meta property="og:image" content="/assets/img/profile/profile.jpg">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2305080f'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%232ee6a6' font-family='monospace' font-weight='700'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="in"><small>INITIALIZING PORTFOLIO</small><strong>Rutuja Jabras</strong><div class="bar"><i></i></div><div class="pc">0%</div></div></div>
+<div class="progress" aria-hidden="true"></div><div class="glow" aria-hidden="true"></div>
+<header class="site-header"><div class="wrap nav">
+  <a class="brand" href="/" aria-label="Rutuja Jabras — home"><b>R</b>Rutuja</a>
+  <nav class="menu" id="menu" aria-label="Main"><a href="/">Home</a><a href="/#about">About</a><a href="/#skills">Skills</a><a href="/#projects" aria-current="page">Projects</a><a href="/#hackathons">Hackathons</a><a href="/#events">Events</a><a href="/#psychology">Psychology</a><a href="/#experience">Experience</a><a href="/#contact">Contact</a><a class="btn solid" href="/assets/Rutuja_Jabras_Resume.pdf" target="_blank" rel="noopener">Resume</a></nav>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="wrap rv"><a class="crumb" href="/#projects">← All projects</a><p class="kicker" style="margin-top:28px">2026 · Machine Learning · Explainable AI · RAG</p><h1>Burnout & Attrition Intelligence System</h1><p class="lede">Explainable HR Analytics With Psychology-Informed Decision Support</p>
+<dl class="dl"><div><dt>Model</dt><dd>XGBoost + SHAP</dd></div><div><dt>Framework</dt><dd>JD-R model</dd></div><div><dt>Backend</dt><dd>FastAPI</dd></div><div><dt>Access</dt><dd>JWT + RBAC</dd></div></dl>
+<div class="hero-media"><figure class="slot cover" data-ph="Burnout & Attrition Intelligence System"><img src="/assets/img/projects/burnout-attrition/cover.jpg" alt="Burnout & Attrition Intelligence System screenshot" loading="eager" decoding="async"></figure></div>
+<div style="margin-top:24px"><div class="chips"><span class="chip">XGBoost</span><span class="chip">SHAP</span><span class="chip">FastAPI</span><span class="chip">React</span><span class="chip">RAG</span><span class="chip">JWT</span><span class="chip">SQLAlchemy</span></div></div></div></section>
+<div class="wrap"><section class="story rv"><div class="side"><span class="num">01</span><h3>The Problem</h3></div><div class="body"><p class="kick">Workforce risk needs structure</p><p class="big">Teams often notice attrition only after it happens. This project explores how workforce risk signals can be turned into structured, explainable decision support that HR teams can plan around.</p></div></section><section class="story rv"><div class="side"><span class="num">02</span><h3>Psychology Meets Machine Learning</h3></div><div class="body"><p class="kick">The JD-R model</p><p>The Job Demands–Resources (JD-R) model, from Industrial and Organizational Psychology, describes how job demands and available resources together shape strain and engagement. The system uses it as the interpretive frame for model output, so a prediction is read in terms people can reason about.</p><div class="callout">More on this way of thinking in <a class="link" href="/psychology/">Psychology &amp; Technology</a>.</div></div></section><section class="story rv"><div class="side"><span class="num">03</span><h3>The Intelligence Pipeline</h3></div><div class="body"><p class="kick">Predict, explain, advise</p><p>An XGBoost model estimates attrition risk. SHAP explains which factors drive each estimate. A RAG pipeline over HR policy documents, grounded in the JD-R model, retrieves relevant policy guidance. A custom JD-R strain gauge visualisation turns the output into interpretable insight.</p><div class="flow"><div class="step"><b>01 · DATA</b><span>Workforce signals</span></div><div class="step"><b>02 · PREDICT</b><span>XGBoost attrition risk</span></div><div class="step"><b>03 · EXPLAIN</b><span>SHAP drivers</span></div><div class="step"><b>04 · FRAME</b><span>JD-R strain gauge</span></div><div class="step"><b>05 · GUIDE</b><span>RAG over HR policy</span></div></div></div></section><section class="story rv"><div class="side"><span class="num">04</span><h3>Application Architecture</h3></div><div class="body"><p class="kick">Secure, enterprise-style access</p><p>The backend is built for controlled access to sensitive information.</p><ul class="points"><li>FastAPI backend with Pydantic schemas</li><li>JWT authentication</li><li>SQLAlchemy ORM for data models</li><li>Role-based access control</li><li>React frontend</li></ul></div></section><section class="story rv"><div class="side"><span class="num">05</span><h3>The Interface</h3></div><div class="body"><p class="kick">Dashboard and Risk Analyst</p><p>The manager dashboard shows a team heatmap of risk levels, with a what-if simulation area. The Risk Analyst chat returns an action plan with policy references and the sources it drew on.</p><div class="gallery-block"><div class="shots"><figure class="slot "><img src="/assets/img/projects/burnout-attrition/shot-1.jpg" alt="Burnout & Attrition Intelligence System — Team wellbeing dashboard" loading="lazy" decoding="async"><figcaption>Team wellbeing dashboard</figcaption></figure><figure class="slot "><img src="/assets/img/projects/burnout-attrition/shot-2.jpg" alt="Burnout & Attrition Intelligence System — Risk Analyst — action plan" loading="lazy" decoding="async"><figcaption>Risk Analyst — action plan</figcaption></figure><figure class="slot "><img src="/assets/img/projects/burnout-attrition/shot-3.jpg" alt="Burnout & Attrition Intelligence System — Risk Analyst — sources and reminders" loading="lazy" decoding="async"><figcaption>Risk Analyst — sources and reminders</figcaption></figure></div></div></div></section><section class="story rv"><div class="side"><span class="num">06</span><h3>Responsible Decision Support</h3></div><div class="body"><p class="kick">Signals, not verdicts</p><p>Risk scores are planning signals. They are not definitive judgments about any employee, and should support a conversation and a human decision rather than replace one. The Risk Analyst responses in the interface state this explicitly.</p></div></section>
+<div class="after"><a class="btn ghost" href="/psychology/">Back to Psychology &amp; Technology <span class="ar" aria-hidden="true">→</span></a></div></div>
+<nav class="pager" aria-label="Previous and next"><a href="/projects/ip-sakti/"><small>← Previous</small><strong>IP-SAKTI Sahayak</strong></a><a href="/projects/auditx/"><small>Next →</small><strong>AuditX</strong></a></nav>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <div class="foot">
+    <div><a class="brand" href="/"><b>R</b>Rutuja Jabras</a><p style="color:var(--muted);margin-top:14px;max-width:36ch;font-size:15px">Computer Science Engineering student building AI-enabled, data-driven full-stack applications.</p></div>
+    <div><h5>Explore</h5><ul><li><a href="/#about">About</a></li><li><a href="/#skills">Skills</a></li><li><a href="/#projects">Projects</a></li><li><a href="/#hackathons">Hackathons</a></li><li><a href="/#events">Events</a></li><li><a href="/#contact">Contact</a></li></ul></div>
+    <div><h5>Connect</h5><ul><li><a href="mailto:rutujajabras33@gmail.com">rutujajabras33@gmail.com</a></li><li><a href="https://www.linkedin.com/in/rutuja-jabras" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://github.com/rutuja3305" target="_blank" rel="noopener">GitHub</a></li><li><a href="/assets/Rutuja_Jabras_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li></ul></div>
+  </div>
+  <div class="copy"><span>© 2026 Rutuja Jabras. All rights reserved.</span><span>Pune, India</span></div>
+</div></footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
